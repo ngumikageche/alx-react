@@ -17,7 +17,13 @@ function App() {
       <body className="App-body">
 
       <p>Login to access the full dashboard</p>
-      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"/>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"/>
+
+      <button type="button" id="okButton">OK</button>
       </body>
       <footer className="App-footer">
       <hr className="hr"/>
