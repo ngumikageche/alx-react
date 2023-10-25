@@ -2,3 +2,12 @@
     border: 1px dotted black;
     padding: 2px;
 }
+
+.notifications-list li[data-priority="default"] {
+    color: blue;
+  }
+  
+  .notifications-list li[data-priority="urgent"] {
+    color: red;
+  }
+  
